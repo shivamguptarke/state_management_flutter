@@ -49,8 +49,8 @@ class _MyHomePageState extends State<MyHomePage> {
             SizedBox(width: 20,),
             FloatingActionButton(
               onPressed: Provider.of<Counter>(context,listen: false).reset,
-              tooltip: 'Increment',
-              child: Text(_counter.toString()),
+              tooltip: 'Reset',
+              child: Text("RESET"),
             ),
             SizedBox(width: 20,),
             FloatingActionButton(
